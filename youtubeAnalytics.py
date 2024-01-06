@@ -65,4 +65,3 @@ if __name__ == "__main__":
                 json.dumps(format_response(video)).encode("utf-8"),
                 key=video_id.encode("utf-8"),
             )
-            producer.flush()
